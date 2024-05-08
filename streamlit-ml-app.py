@@ -1,6 +1,7 @@
 import joblib
 import streamlit as st
 import numpy as np
+import wget
 
 model_name = 'RF_loan_model.joblib'
 file_url = "https://raw.githubusercontent.com/Data-Science-Jagannath/streamlit_demo_app/main/RF_loan_model.joblib"
