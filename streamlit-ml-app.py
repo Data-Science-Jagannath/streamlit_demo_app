@@ -64,7 +64,7 @@ def main():
     ApplicantIncome = st.number_input("Applicant Income")
     CoapplicantIncome = st.number_input("CoapplicantIncome")
     LoanAmount = st.number_input("LoanAmount")
-    Loan_Amount_Term = st.number_input("Loan_Amount_Term (In days)")
+    Loan_Amount_Term = st.number_input("Loan_Amount_Term")
     Credit_History = st.selectbox("Credit_History",("Outstanding loan","No Outstanding loan"))
     Property_Area = st.selectbox("Property_Area",("Urban","Rural"))
 
