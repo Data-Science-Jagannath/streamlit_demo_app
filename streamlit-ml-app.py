@@ -3,6 +3,8 @@ import streamlit as st
 import numpy as np
 
 model_name = 'RF_loan_model.joblib'
+file_url = "https://raw.githubusercontent.com/Data-Science-Jagannath/streamlit_demo_app/main/RF_loan_model.joblib"
+wget.download(file_url)
 model = joblib.load(model_name)
 
 def prediction(Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area):
